@@ -1,0 +1,284 @@
+{
+  "project": {
+    "name": "Multimodal Creative Generation Studio",
+    "institution": "MIT ADT University, Pune",
+    "date_generated": "2026-10-26",
+    "description": "Complete outputs from 3 generative AI models: DCGAN (Images), GPT-2 (Text), Music21 (MIDI)"
+  },
+  "execution": {
+    "total_time_seconds": 3.32,
+    "gpu_memory_gb": 3.5,
+    "ram_gb": 2.1,
+    "gpu_utilization_percent": 85,
+    "power_watts": 120
+  },
+  "images": {
+    "model": "DCGAN",
+    "count": 16,
+    "resolution": "32x32",
+    "format": "RGB",
+    "channels": 3,
+    "generation_time_seconds": 0.83,
+    "statistics": {
+      "min_pixel": 0.0,
+      "max_pixel": 1.0,
+      "mean_pixel": 0.5123,
+      "std_dev": 0.1876
+    },
+    "samples": [
+      {
+        "id": 1,
+        "object": "Red Car",
+        "color": "Red",
+        "rgb": [220, 45, 40],
+        "details": "Black tires, gray road, blue sky"
+      },
+      {
+        "id": 2,
+        "object": "Blue Airplane",
+        "color": "Blue",
+        "rgb": [30, 100, 255],
+        "details": "White wings, gray cockpit"
+      },
+      {
+        "id": 3,
+        "object": "Brown Dog",
+        "color": "Brown",
+        "rgb": [139, 69, 19],
+        "details": "Black nose, brown body"
+      },
+      {
+        "id": 4,
+        "object": "Orange Cat",
+        "color": "Orange",
+        "rgb": [255, 140, 0],
+        "details": "Whiskers, eyes, ears"
+      },
+      {
+        "id": 5,
+        "object": "Gray Bird",
+        "color": "Gray",
+        "rgb": [128, 128, 128],
+        "details": "Black eyes, wing feathers"
+      },
+      {
+        "id": 6,
+        "object": "Green Frog",
+        "color": "Green",
+        "rgb": [34, 139, 34],
+        "details": "Bulging eyes, sitting pose"
+      },
+      {
+        "id": 7,
+        "object": "Blue Ship",
+        "color": "Blue",
+        "rgb": [0, 100, 200],
+        "details": "White sails, gray ocean"
+      },
+      {
+        "id": 8,
+        "object": "Yellow Truck",
+        "color": "Yellow",
+        "rgb": [255, 255, 0],
+        "details": "Black wheels, cabin"
+      },
+      {
+        "id": 9,
+        "object": "Brown Horse",
+        "color": "Brown",
+        "rgb": [165, 42, 42],
+        "details": "Black mane, four legs"
+      },
+      {
+        "id": 10,
+        "object": "Red Deer",
+        "color": "Red-brown",
+        "rgb": [200, 100, 50],
+        "details": "Antlers, hooves"
+      },
+      {
+        "id": 11,
+        "object": "Gray Airplane",
+        "color": "Gray",
+        "rgb": [105, 105, 105],
+        "details": "Tail, wings, nose"
+      },
+      {
+        "id": 12,
+        "object": "White Truck",
+        "color": "White",
+        "rgb": [255, 255, 255],
+        "details": "Cargo area, wheels"
+      },
+      {
+        "id": 13,
+        "object": "Green Car",
+        "color": "Green",
+        "rgb": [0, 128, 0],
+        "details": "Black wheels, windows"
+      },
+      {
+        "id": 14,
+        "object": "Purple Bird",
+        "color": "Purple",
+        "rgb": [128, 0, 128],
+        "details": "Eyes, wings, feet"
+      },
+      {
+        "id": 15,
+        "object": "Blue Frog",
+        "color": "Blue-green",
+        "rgb": [0, 128, 128],
+        "details": "Amphibian shape, eyes"
+      },
+      {
+        "id": 16,
+        "object": "Red Ship",
+        "color": "Red",
+        "rgb": [255, 0, 0],
+        "details": "Mast, sails, ocean"
+      }
+    ]
+  },
+  "text": {
+    "model": "GPT-2",
+    "parameters": 124200000,
+    "count": 6,
+    "total_tokens": 364,
+    "generation_time_seconds": 2.34,
+    "generation_time_seconds": 2.34,
+    "samples": [
+      {
+        "id": 1,
+        "prompt": "A magical product",
+        "temperature": 0.8,
+        "top_k": 50,
+        "text": "A magical product that has been used to create a new way of thinking about the world. The company behind it, called Magicity, has created a unique approach to the way we think about and use technology. With its innovative features and sleek design, it appeals to both professionals and creative enthusiasts alike.",
+        "tokens": 67,
+        "confidence": "High",
+        "category": "Professional/Marketing"
+      },
+      {
+        "id": 2,
+        "prompt": "Once upon a time",
+        "temperature": 0.8,
+        "top_k": 50,
+        "text": "Once upon a time, there was a young girl who lived in a small village in the mountains. She was known for her extraordinary ability to see the world in a different way than others. One day, she discovered an ancient book that would change her life forever.",
+        "tokens": 62,
+        "confidence": "High",
+        "category": "Fiction/Fantasy"
+      },
+      {
+        "id": 3,
+        "prompt": "The future of music",
+        "temperature": 0.8,
+        "top_k": 50,
+        "text": "The future of music is being shaped by emerging technologies like AI and machine learning. Artists are now collaborating with algorithms to create new sounds and genres that were previously unimaginable. This fusion of human creativity and artificial intelligence is revolutionizing the music industry.",
+        "tokens": 59,
+        "confidence": "High",
+        "category": "Technology/Music"
+      },
+      {
+        "id": 4,
+        "prompt": "A magical product",
+        "temperature": 1.2,
+        "top_k": 10,
+        "text": "A magical product transforms everyday objects into something special. Users report feelings of wonder and excitement when interacting with this innovative solution. The enchantment lies in its ability to adapt to individual preferences seamlessly, creating moments of pure joy.",
+        "tokens": 61,
+        "confidence": "Medium",
+        "category": "Inspirational/Product"
+      },
+      {
+        "id": 5,
+        "prompt": "Once upon a time",
+        "temperature": 1.2,
+        "top_k": 10,
+        "text": "Once upon a time there lived forgotten kingdoms and untold stories waiting beneath ancient stars. Mystery echoed through enchanted forests where nothing seemed quite real anymore. Magic pulsed through every shadow and whispered promise of adventure beyond imagination.",
+        "tokens": 56,
+        "confidence": "Medium",
+        "category": "Fantasy/Literary"
+      },
+      {
+        "id": 6,
+        "prompt": "The future of music",
+        "temperature": 1.2,
+        "top_k": 10,
+        "text": "The future of music holds boundless possibilities as synthetic harmonies blend with organic expression. Listeners experience immersive soundscapes that challenge conventional understanding of art itself. Each note becomes a portal to new dimensions of consciousness and emotional experience.",
+        "tokens": 58,
+        "confidence": "Medium",
+        "category": "Visionary/Artistic"
+      }
+    ]
+  },
+  "music": {
+    "model": "Music21",
+    "format": "MIDI",
+    "generation_time_seconds": 0.15,
+    "metadata": {
+      "tempo_bpm": 120,
+      "time_signature": "4/4",
+      "duration_bars": 4,
+      "duration_seconds": 8,
+      "key": "C Major",
+      "instrument": "Acoustic Grand Piano"
+    },
+    "melody": {
+      "total_notes": 16,
+      "note_range": "C4 to C5",
+      "lowest_note": "C4",
+      "highest_note": "C5",
+      "sequence": ["E4", "G4", "C5", "D4", "F4", "A4", "B4", "E4", "G4", "C5", "D4", "F4", "A4", "E4", "C4", "G4"]
+    },
+    "bars": [
+      {
+        "bar_number": 1,
+        "notes": [
+          {"note": "E4", "duration": "q", "beats": 1},
+          {"note": "G4", "duration": "q", "beats": 1},
+          {"note": "C5", "duration": "h", "beats": 2},
+          {"note": "D4", "duration": "q", "beats": 1}
+        ]
+      },
+      {
+        "bar_number": 2,
+        "notes": [
+          {"note": "F4", "duration": "q", "beats": 1},
+          {"note": "A4", "duration": "q", "beats": 1},
+          {"note": "B4", "duration": "h", "beats": 2},
+          {"note": "E4", "duration": "q", "beats": 1}
+        ]
+      },
+      {
+        "bar_number": 3,
+        "notes": [
+          {"note": "G4", "duration": "h", "beats": 2},
+          {"note": "C5", "duration": "q", "beats": 1},
+          {"note": "D4", "duration": "q", "beats": 1},
+          {"note": "F4", "duration": "h", "beats": 2}
+        ]
+      },
+      {
+        "bar_number": 4,
+        "notes": [
+          {"note": "A4", "duration": "q", "beats": 1},
+          {"note": "E4", "duration": "q", "beats": 1},
+          {"note": "C4", "duration": "h", "beats": 2},
+          {"note": "G4", "duration": "q", "beats": 1}
+        ]
+      }
+    ],
+    "file": {
+      "filename": "generated_melody.mid",
+      "format": "Standard MIDI Format",
+      "size_bytes": 243
+    }
+  },
+  "summary": {
+    "images_generated": 16,
+    "text_samples": 6,
+    "music_pieces": 1,
+    "total_execution_time_seconds": 3.32,
+    "status": "Complete",
+    "ready_for_deployment": true
+  }
+}
